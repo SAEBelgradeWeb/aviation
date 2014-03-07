@@ -1,0 +1,166 @@
+/*
+	Width: 940px
+	Blue - #274f75
+	Green - #83bd0e
+	Red - #c80808
+*/
+
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.wrap {
+	width: 940px;
+	margin: 0 auto;
+}
+
+div {
+	/*border: 1px solid red;*/
+}
+
+
+/* HEADER */
+#header {
+	height: 150px;
+	background-color: #274f75;
+}
+
+#hlevo, #hdesno {
+	float: left;
+}
+
+#hlevo {
+	width: 75%;
+}
+
+#hdesno {
+	width: 25%;
+	margin-top: 32px;
+}
+
+#hlevo h1 {
+	text-transform: uppercase;
+	color: white;
+	font-size: 64px;
+	margin: 36px 0 0;
+	text-shadow: 1px 1px #062d48;
+}
+
+#hdesno h2 {
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	color: white;
+	opacity: 0.6;
+	font-weight: 400;
+	line-height: 22px;
+	text-align: right;
+}
+
+
+/* NAVIGACIJA */
+#menu {
+	height: 37px;
+	
+	background-color: #83bd0e;
+	border-bottom: 1px solid #c80808;
+	background-image: url(../images/bg_menu.jpg);
+	background-repeat: repeat-x;
+}
+
+.nav ul {
+	padding: 0;
+	margin: 0;
+}
+
+.nav ul li {
+	list-style-type: none;
+
+}
+
+.nav ul li a {
+	text-decoration: none;
+	display: block;
+	float: left;
+	line-height: 37px;
+	height: 37px;
+	padding: 0 28px;
+	color: #28485e;
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+
+}
+
+.nav ul li a:hover {
+	background-color: white;
+/*	font-weight: bold;*/
+	border-bottom: 5px solid #c80808;
+/*	padding: 0 25px;*/
+
+	background-image: url(../images/hover_bg_menu.jpg);
+	background-repeat: repeat-x;
+}
+/*
+.nav ul li:first-child a {
+	padding-left: 0;
+}
+
+.nav ul li:last-child a {
+	padding-right: 0;
+}
+*/
+
+/* HERO */
+
+#hero {
+	background-color: white;
+	background-image: url(../images/nebo_bg.jpg);
+	background-repeat: repeat-x;
+	height: 600px;
+
+}
+
+.oblaci {
+	background-image: url(../images/oblaci.jpg);
+	background-repeat: no-repeat;
+	height: 100%;
+	width: 1322px;
+	margin: 0 auto;
+}
+
+#hero h1 {
+	color: #295071;
+	margin: 0;
+	padding-top: 113px;
+	font-size: 58px;
+	width: 430px;
+	text-shadow: 1px 1px white;
+}
+
+#hero h2 {
+	color: #295071;
+	font-size: 25px;
+	font-family: Arial, sans-serif;
+	font-weight: normal;
+	width: 345px;
+	text-shadow: 1px 1px white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
