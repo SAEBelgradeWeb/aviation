@@ -23,6 +23,7 @@ p {
 }
 .red{
 	color: #c80808;
+	font-weight: bold;
 }
 
 /* HEADER */
@@ -131,6 +132,7 @@ p {
 	height: 100%;
 	width: 1322px;
 	margin: 0 auto;
+	padding-left: 9px;
 }
 
 #hero h1 {
@@ -157,23 +159,41 @@ p {
 	
 }
 .content-style h1{
+	margin-top: 0;
 	font-size: 28px;
 	font-family: Arial;
+	font-weight: normal;
 }
 
-.content-style h2{
+.content-style h2 {
 	font-family: Arial;
 	font-size: 20px;
+	font-weight: normal;
 }
 .content-style{
-	padding: 38px 20px 0 20px;
+	padding: 38px 20px 0;
+	width: 911px;
 	overflow: hidden;
 	background-color: #fff;
+	background-image: url(../images/content_header.jpg);
+	background-repeat: no-repeat;
 }
+
+.content-style p {
+	font-size: 14px;
+	font-family: Arial, sans-serif;
+	color: #3d3d3d;
+	letter-spacing: 1.5px;
+	line-height: 26px;
+
+}
+
 .main-content{
 	width: 595px;
 	float: left;
 }
+
+
 .main-article {
 	overflow: hidden;
 }
@@ -198,18 +218,38 @@ p {
 	width: 280px;
 	float: right;
 }
+
+.sidebar p {
+	line-height: 18px;
+}
+
+.sidebar h1 {
+	font-weight: bold;
+}
+
+.content-style p span {
+	text-decoration: underline;
+}
+
 .date{
 	width: 28px;
 	height: 28px;
 	background-color: #274f75;
 	float: left;
-	color: #fff;
-	text-align: right;
-	font-family: Arial;
 	padding: 5px;
 	margin-right: 10px;
 	margin-bottom: 20px;
 }
+
+.date div {
+	width: 28px;
+	height: 28px;
+	color: #fff;
+	text-align: right;
+	font-family: Arial;
+	margin-top: -2px;
+}
+
 .calendar{
 	padding-bottom: 22px;
 	margin-bottom: 22px;
@@ -226,10 +266,81 @@ p {
 	margin: 0;
 }
 
+/*FOOTER*/
 
+#footer {
+	background-color: #274f75;
+	height: 110px;
+	border-top: 1px solid #c80808;
 
+}
 
+.social, .copy {
+	float: left;
 
+}
+.social {
+	width: 30%;
+
+}
+
+.copy {
+	width: 70%;
+}
+
+.fb {
+	display: block;
+	width: 26px;
+	height: 25px;
+	background-image: url(../images/fb.png);
+	background-repeat: no-repeat;
+}
+
+.fb:hover {
+	background-image: url(../images/fb_hover.png);
+}
+
+.tw {
+	display: block;
+	width: 38px;
+	height: 26px;
+	background-image: url(../images/tw.png);
+	background-repeat: no-repeat;
+}
+
+.tw:hover {
+	background-image: url(../images/tw_hover.png);
+}
+
+.yt {
+	display: block;
+	width: 71px;
+	height: 26px;
+	background-image: url(../images/yt.png);
+	background-repeat: no-repeat;
+}
+
+.yt:hover {
+	background-image: url(../images/yt_hover.png);
+}
+
+.fb, .yt, .tw {
+	float: left;
+	margin: 40px 10px;
+
+}
+
+.copy div {
+	text-align: right;
+	color: #6a86a0;
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+
+}
+
+.copy div:first-child {
+	margin-top: 40px;
+}
 
 
 
